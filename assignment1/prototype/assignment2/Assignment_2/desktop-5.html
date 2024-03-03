@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-5.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-5" id="desktop5">
+      <header class="frame-parent1">
+        <b class="home-about-us2"
+          >Home About us Team Live score Shop Overview Contact us
+        </b>
+      </header>
+      <main class="shop-frame">
+        <img class="pic-10-2" alt="" src="./public/pic-10-2@2x.png" />
+
+        <button class="button">
+          <img class="button-child" alt="" src="./public/rectangle-11.svg" />
+
+          <b class="shop-now">Shop Now </b>
+          <div class="button-inner">
+            <img class="arrow-icon" alt="" src="./public/arrow-1.svg" />
+          </div>
+        </button>
+      </main>
+    </div>
+
+    <script>
+      var desktop5 = document.getElementById("desktop5");
+      if (desktop5) {
+        desktop5.addEventListener("click", function (e) {
+          window.location.href = "./desktop4.html";
+        });
+      }
+      </script>
+  </body>
+</html>

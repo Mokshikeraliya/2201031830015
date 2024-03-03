@@ -1,0 +1,54 @@
+.pic-5-1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child1 {
+  height: 37px;
+  width: 591px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.home-about-us4 {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 2;
+}
+.desktop-7,
+.rectangle-parent2 {
+  display: flex;
+  flex-direction: row;
+}
+.rectangle-parent2 {
+  background-color: var(--color-gray-100);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 18px 11px var(--padding-lgi);
+  z-index: 1;
+}
+.desktop-7 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 194px 129px 793px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
